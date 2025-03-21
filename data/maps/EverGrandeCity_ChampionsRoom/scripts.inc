@@ -55,15 +55,6 @@ EverGrandeCity_ChampionsRoom_EventScript_Defeated::
 	special DrawWholeMapView
 	msgbox EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	closemessage
-	playse SE_DOOR
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, EverGrandeCity_ChampionsRoom_EventScript_PlayMayMusic
-	call_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_PlayBrendanMusic
-	addobject LOCALID_RIVAL
-	call EverGrandeCity_ChampionsRoom_EventScript_RivalApproachPlayer
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, EverGrandeCity_ChampionsRoom_EventScript_MayAdvice
-	goto_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice
 	end
 
 EverGrandeCity_ChampionsRoom_EventScript_PlayMayMusic::
@@ -224,51 +215,58 @@ EverGrandeCity_ChampionsRoom_Movement_BirchArrives:
 	step_end
 
 EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
-	.string "WALLACE: Welcome, {PLAYER}{KUN}.\p"
-	.string "That incident in SOOTOPOLIS CITY…\n"
-	.string "That was superb work, putting an end\l"
-	.string "to that crisis all by yourself.\p"
-	.string "Oops!\p"
-	.string "It wouldn't be fair to say that you\n"
-	.string "alone ended the crisis.\p"
-	.string "You overcame that difficult situation\n"
-	.string "by working as one with your POKéMON.\p"
-	.string "We TRAINERS raise POKéMON by giving\n"
-	.string "them items and by teaching them new\l"
-	.string "techniques for battle.\p"
-	.string "But we ourselves also learn many\n"
-	.string "things from POKéMON.\p"
-	.string "And this is where your achievements\n"
-	.string "are put to the test against what\l"
-	.string "others like you have achieved.\p"
-	.string "Now!\p"
-	.string "Who can most elegantly dance with\n"
-	.string "their POKéMON in HOENN?\p"
-	.string "Show me right here and now!$"
+	.string "THE JOKER: HAHAHA, WELL THEN…\p"
+	.string "If it isn't {PLAYER}{KUN}'\n"
+	.string "of the ROOTERS RING.\p"
+	.string "HA. Or should I say…\n"
+	.string "the POOPERS PING?\l"
+	.string "Eh, not like it matters.\p"
+	.string "So, you want to save that bastard PETE.\p"
+	.string "Despite all my efforts to corrupt him.\n"
+	.string "Despite all my careful planning\l"
+	.string "to return to life.\p"
+	.string "You overcame everything I did to scatter\n"
+	.string "his SOUL pieces away.\p"
+	.string "I can't be funny if you piss me off\n"
+	.string "like that! I'm the Joker, baby!\p"
+	.string "But how could you revive a SOUL…\n"
+	.string "if you don't have a body to\l"
+	.string "house it?\p"
+	.string "Now, I know you've tried to\n"
+	.string "build him a NEW BODY.\p"
+	.string "Hell, you even found his original\n"
+	.string "corpse, when I wanted to use it.\p"
+	.string "But the pieces were fake, and\l"
+	.string "led you right to me. HAHAHAHAHA HA!\p"
+	.string "Now! Are you ready to join Pete?\p"
+	.string "When I kill you, I'll take your body'\n"
+	.string "and return to MY rightful throne.\p"
+	.string "Prepare to bow again, Rooters Ring!\n
+	.string "Welcome your new overlord!!!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
-	.string "I, the CHAMPION, fall in defeat…\p"
-	.string "That was wonderful work.\n"
-	.string "You were elegant, infuriatingly so.\l"
-	.string "And yet it was utterly glorious!\p"
-	.string "Kudos to you, {PLAYER}{KUN}!\p"
-	.string "You are a truly noble POKéMON\n"
+	.string "Impossible!\p"
+	.string "Even with all of his easter eggs…\n"
+	.string "You still defeated Pete?!\p"
+	.string "I can't return to life like this!\p"
+	.string "Fuck you, {PLAYER}{KUN}!\p"
+	.string "You are a HORRIBLE POKéMON\n"
 	.string "TRAINER!$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
-	.string "WALLACE: The POKéMON you sent into\n"
+	.string "THE JOKER: The POKéMON you sent into\n"
 	.string "battle…\p"
-	.string "At times they danced like a spring\n"
-	.string "breeze, and at times they struck\l"
-	.string "like lightning.\p"
-	.string "It was with light, yet surefooted,\n"
-	.string "elegance that you led your POKéMON.\p"
-	.string "Even I felt bedazzled by your\n"
-	.string "masterful performance!\p"
-	.string "You now stand at the glorious peak\n"
-	.string "of the POKéMON LEAGUE.\p"
-	.string "I now proclaim you to be the new\n"
-	.string "HOENN region…$"
+	.string "They kicked my fucking ass. Damn.\n"
+	.string "I keep picking the wrong servers\l"
+	.string "to take over.\p"
+	.string "You've shown me there is no point\n"
+	.string "in returning to the ROOTERS RING.\p"
+	.string "Fine. Take your damn PETE's BODY\n"
+	.string "and bring him back.\p"
+	.string "But you better pray that I don't\n"
+	.string "change my mind…\p"
+	.string "JOKER'S JOKING JIVE will be real\n"
+	.string "eventually!$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
 	.string "MAY: {PLAYER}{KUN}!\p"
