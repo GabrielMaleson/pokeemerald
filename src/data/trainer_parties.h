@@ -4415,36 +4415,36 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_WAILORD,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_RAIN_DANCE, MOVE_WATER_SPOUT, MOVE_DOUBLE_EDGE, MOVE_BLIZZARD}
+    .species = SPECIES_WALREIN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_ROLE_PLAY, MOVE_CONFUSION, MOVE_THUNDERBOLT, MOVE_ROCK_BLAST}
     },
     {
     .iv = 255,
     .lvl = 87,
     .species = SPECIES_TENTACRUEL,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_TOXIC, MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_ICE_BEAM}
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_GUILLOTINE, MOVE_CRUNCH, MOVE_METEOR_MASH, MOVE_DISABLE}
     },
     {
     .iv = 255,
-    .lvl = 56,
+    .lvl = 93,
     .species = SPECIES_LUDICOLO,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_GIGA_DRAIN, MOVE_SURF, MOVE_LEECH_SEED, MOVE_DOUBLE_TEAM}
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SUBSTITUTE, MOVE_SLUDGE_BOMB, MOVE_TOXIC, MOVE_SHADOW_PUNCH}
     },
     {
     .iv = 255,
-    .lvl = 56,
+    .lvl = 98,
     .species = SPECIES_WHISCASH,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_EARTHQUAKE, MOVE_SURF, MOVE_AMNESIA, MOVE_HYPER_BEAM}
+    .heldItem = ITEM_LIECHI_BERRY,
+    .moves = {MOVE_SLASH, MOVE_SKY_ATTACK, MOVE_REVERSAL, MOVE_SWORDS_DANCE}
     },
     {
     .iv = 255,
-    .lvl = 56,
+    .lvl = 90,
     .species = SPECIES_GYARADOS,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_EXPERT_BELT,
     .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_HYPER_BEAM, MOVE_SURF}
     },
     {
@@ -4452,7 +4452,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .lvl = 100,
     .species = SPECIES_CHANSEY,
     .heldItem = ITEM_LUCKY_PUNCH,
-    .moves = {MOVE_RECOVER, MOVE_SURF, MOVE_ICE_BEAM, MOVE_TOXIC}
+    .moves = {MOVE_CRUNCH, MOVE_OVERHEAT, MOVE_REVENGE, MOVE_RECOVER}
     }
 };
 
