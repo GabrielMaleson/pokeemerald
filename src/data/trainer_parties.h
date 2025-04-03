@@ -4416,7 +4416,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .iv = 255,
     .lvl = 95,
     .species = SPECIES_WALREIN,
-    .heldItem = ITEM_FOCUS_SASH,
+    .heldItem = ITEM_HARD_STONE,
     .moves = {MOVE_ROLE_PLAY, MOVE_CONFUSION, MOVE_THUNDERBOLT, MOVE_ROCK_BLAST}
     },
     {
@@ -4444,7 +4444,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .iv = 255,
     .lvl = 90,
     .species = SPECIES_GYARADOS,
-    .heldItem = ITEM_EXPERT_BELT,
+    .heldItem = ITEM_LANSAT_BERRY,
     .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_HYPER_BEAM, MOVE_SURF}
     },
     {
