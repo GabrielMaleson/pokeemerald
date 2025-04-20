@@ -40,3 +40,14 @@ prefabs.json
 *.js
 /pokeemerald-*.png
 /pokeemerald_modern-*.png
+*.vsidx
+*.db-wal
+*.db-shm
+*.sqlite
+*.db
+*.opendb
+*.db
+*.sqlite
+*.sqlite-journal
+*.sqlite
+*.db
