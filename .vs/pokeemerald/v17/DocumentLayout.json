@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\maps\\EverGrandeCity_Hall4\\events.inc||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\maps\\EverGrandeCity_Hall4\\events.inc||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\maps\\EverGrandeCity_HallOfFame\\scripts.inc||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\maps\\EverGrandeCity_HallOfFame\\scripts.inc||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\maps\\EverGrandeCity_ChampionsRoom\\scripts.inc||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\scripts\\new_game.inc||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\scripts\\new_game.inc||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\maps\\EverGrandeCity_HallOfFame\\scripts.inc||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\maps\\EverGrandeCity_HallOfFame\\scripts.inc||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "events.inc",
-              "DocumentMoniker": "C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\maps\\EverGrandeCity_Hall4\\events.inc",
-              "RelativeDocumentMoniker": "data\\maps\\EverGrandeCity_Hall4\\events.inc",
-              "ToolTip": "C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\maps\\EverGrandeCity_Hall4\\events.inc",
-              "RelativeToolTip": "data\\maps\\EverGrandeCity_Hall4\\events.inc",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-19T03:31:51.192Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -49,7 +32,7 @@
               "RelativeDocumentMoniker": "data\\maps\\EverGrandeCity_ChampionsRoom\\scripts.inc",
               "ToolTip": "C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\maps\\EverGrandeCity_ChampionsRoom\\scripts.inc",
               "RelativeToolTip": "data\\maps\\EverGrandeCity_ChampionsRoom\\scripts.inc",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAC0BAAAAAAAAAAAcwFkBAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-19T03:29:00.726Z",
               "EditorCaption": ""
@@ -64,18 +47,17 @@
               "RelativeToolTip": "data\\scripts\\new_game.inc",
               "ViewState": "AgIAAMMAAAAAAAAAAAAAAM4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-19T03:24:05.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T03:24:05.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "scripts.inc",
               "DocumentMoniker": "C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\maps\\EverGrandeCity_HallOfFame\\scripts.inc",
               "RelativeDocumentMoniker": "data\\maps\\EverGrandeCity_HallOfFame\\scripts.inc",
               "ToolTip": "C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pete\\pokeemerald\\data\\maps\\EverGrandeCity_HallOfFame\\scripts.inc",
               "RelativeToolTip": "data\\maps\\EverGrandeCity_HallOfFame\\scripts.inc",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwDwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-18T15:32:31.062Z",
               "EditorCaption": ""

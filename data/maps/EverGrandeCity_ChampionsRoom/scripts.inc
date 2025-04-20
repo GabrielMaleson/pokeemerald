@@ -21,7 +21,6 @@ EverGrandeCity_ChampionsRoom_EventScript_PlayerTurnNorth::
 	end
 
 EverGrandeCity_ChampionsRoom_OnFrame:
-    setrespawn EverGrandeCity_Hall4
 	map_script_2 VAR_TEMP_1, 0, EverGrandeCity_ChampionsRoom_EventScript_EnterRoom
 	.2byte 0
 
@@ -255,8 +254,8 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "You still defeated Pete?!\p"
 	.string "I can't return to life like this!\p"
 	.string "Fuck you, {PLAYER}{KUN}!\p"
-	.string "You ruined\n"
-	.string "EVERYTHING!$"
+	.string "You are a HORRIBLE POKéMON\n"
+	.string "TRAINER!$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "THE JOKER: The POKéMON you sent into\n"
@@ -270,7 +269,7 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "and bring him back.\p"
 	.string "But you better pray that I don't\n"
 	.string "change my mind…\p"
-	.string "Or JOKER'S JOKING JIVE will be real\n"
+	.string "JOKER'S JOKING JIVE will be real\n"
 	.string "eventually!$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
