@@ -713,7 +713,7 @@ static void Task_MainMenuCheckBattery(u8 taskId)
         SetGpuReg(REG_OFFSET_BLDALPHA, 0);
         SetGpuReg(REG_OFFSET_BLDY, 7);
 
-        if (!(RtcGetErrorStatus() & RTC_ERR_FLAG_MASK))
+        if (1)
         {
             gTasks[taskId].func = Task_DisplayMainMenu;
         }
@@ -740,6 +740,13 @@ static void Task_DisplayMainMenu(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     u16 palette;
+
+
+    gPlttBufferUnfaded[0] = RGB_BLACK;
+    gPlttBufferFaded[0] = RGB_BLACK;
+    SetMainCallback2(CB2_ContinueSavedGame);
+    DestroyTask(taskId);
+    return;
 
     if (!gPaletteFade.active)
     {
