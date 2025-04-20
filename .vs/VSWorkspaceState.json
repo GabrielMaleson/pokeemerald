@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\data",
+    "\\data\\maps",
+    "\\data\\maps\\EverGrandeCity_HallOfFame"
   ],
-  "SelectedNode": "\\C:\\Users\\Gabriel Maleson\\OneDrive\\Documentos\\GitHub\\pokeemerald",
+  "SelectedNode": "\\data\\maps\\EverGrandeCity_HallOfFame\\scripts.inc",
   "PreviewInSolutionExplorer": false
 }
