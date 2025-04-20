@@ -254,8 +254,8 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "You still defeated Pete?!\p"
 	.string "I can't return to life like this!\p"
 	.string "Fuck you, {PLAYER}{KUN}!\p"
-	.string "You are a HORRIBLE POKéMON\n"
-	.string "TRAINER!$"
+	.string "You ruined\n"
+	.string "EVERYTHING!$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "THE JOKER: The POKéMON you sent into\n"
@@ -269,7 +269,7 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "and bring him back.\p"
 	.string "But you better pray that I don't\n"
 	.string "change my mind…\p"
-	.string "JOKER'S JOKING JIVE will be real\n"
+	.string "Or JOKER'S JOKING JIVE will be real\n"
 	.string "eventually!$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
@@ -343,3 +343,4 @@ EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
 	.string "It can't be helped if that's the rule.\p"
 	.string "{PLAYER}, way to go!\n"
 	.string "Congratulations!$"
+
