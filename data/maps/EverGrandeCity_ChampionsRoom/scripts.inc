@@ -42,7 +42,6 @@ EverGrandeCity_ChampionsRoom_Movement_PlayerApproachWallace:
 	step_end
 
 EverGrandeCity_ChampionsRoom_EventScript_Wallace::
-	playbgm MUS_ENCOUNTER_CHAMPION, FALSE
 	msgbox EverGrandeCity_ChampionsRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_WALLACE, EverGrandeCity_ChampionsRoom_Text_Defeat
 	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
@@ -228,23 +227,23 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "You overcame everything I did to scatter\n"
 	.string "his SOUL pieces away.\p"
 	.string "You pissed me off with that.\n"
-	.string "But I still have a FUNNY up my sleeve…\p"
+	.string "But I still have JOKER'S TRICK up my sleeve…\p"
 	.string "After all, how could you revive a SOUL…\n"
 	.string "if you don't have a body to\l"
 	.string "house it?\p"
-	.string "That's right. That NEW BODY you have\n"
-	.string "assembled… is in MY possession.\p"
+	.string "That's right. Pete's BODY was not\n"
+	.string "destroyed… and is in MY possession.\p"
 	.string "Trapped in his own consciousness…\n"
 	.string "Pete won't even know he's alive.\p"
 	.string "You and your crew fell RIGHT INTO MY\l"
-	.string "JOKER'S TRICK! AHAHAHAHAHA HA!\p"
+	.string "PUNCHLINE! AHAHAHAHAHA HA!\p"
 	.string "…Now! Are you ready to join PETE?\p"
 	.string "When I kill you, I'll take your body\n"
 	.string "and his, to return to MY rightful throne.\p"
 	.string "You'll be stuck in a fake home…\n"
 	.string "while I make EVERYTHING… FUNNY AGAIN.\p"
 	.string "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\n"
-	.string "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!\p"
+	.string "HAHAHAHAHAHAHAHAHAHAHAHAHAHA!\p"
 	.string "Prepare to bow again, ROOTERS!\n"
 	.string "Welcome your new overlord!!!$"
 

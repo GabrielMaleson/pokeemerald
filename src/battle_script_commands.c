@@ -3285,6 +3285,8 @@ static void Cmd_getexp(void)
         }
         break;
     case 1: // calculate experience points to redistribute
+        gBattleScripting.getexpState = 6; // skip straight to end
+        break;
         {
             u16 calculatedExp;
             s32 viaSentIn;
