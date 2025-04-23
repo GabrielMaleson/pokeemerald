@@ -42,6 +42,7 @@ EverGrandeCity_ChampionsRoom_Movement_PlayerApproachWallace:
 	step_end
 
 EverGrandeCity_ChampionsRoom_EventScript_Wallace::
+	playbgm MUS_ENCOUNTER_CHAMPION, FALSE
 	msgbox EverGrandeCity_ChampionsRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_WALLACE, EverGrandeCity_ChampionsRoom_Text_Defeat
 	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
@@ -227,7 +228,7 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "You overcame everything I did to scatter\n"
 	.string "his SOUL pieces away.\p"
 	.string "You pissed me off with that.\n"
-	.string "But I still have JOKER'S TRICK up my sleeve…\p"
+	.string "But I still have JOKER'S TRICK…\p"
 	.string "After all, how could you revive a SOUL…\n"
 	.string "if you don't have a body to\l"
 	.string "house it?\p"
@@ -235,12 +236,12 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "destroyed… and is in MY possession.\p"
 	.string "Trapped in his own consciousness…\n"
 	.string "Pete won't even know he's alive.\p"
-	.string "You and your crew fell RIGHT INTO MY\l"
-	.string "PUNCHLINE! AHAHAHAHAHA HA!\p"
+	.string "You and your crew fell RIGHT INTO MY\n"
+	.string "FUNNY! AHAHAHAHAHA HA!\p"
 	.string "…Now! Are you ready to join PETE?\p"
 	.string "When I kill you, I'll take your body\n"
 	.string "and his, to return to MY rightful throne.\p"
-	.string "You'll be stuck in a fake home…\n"
+	.string "You'll be stuck in nothingness…\n"
 	.string "while I make EVERYTHING… FUNNY AGAIN.\p"
 	.string "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\n"
 	.string "HAHAHAHAHAHAHAHAHAHAHAHAHAHA!\p"
@@ -257,9 +258,8 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "EVERYTHING!$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
-	.string "THE JOKER: The POKéMON you sent into\n"
-	.string "battle…\p"
-	.string "They kicked my fucking ass. Damn.\n"
+	.string "THE JOKER: So this is how it ends…\p"
+	.string "You kicked my funny ass. Damn.\n"
 	.string "I keep picking the wrong servers\l"
 	.string "to take over.\p"
 	.string "You've shown me there is no point\n"
